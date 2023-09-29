@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #930000;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    color: #000;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav ul {
+    padding: 0px;
+}
+
+.active {
+    background-color: #930000;
+    color: #FFF;
+}
+
+footer::before, footer::after {
+    content: '/';
+    color: #930000;
+    font-size: 30px;
+    font-weight: bold;
+}
